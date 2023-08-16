@@ -28,11 +28,17 @@ th.mat-header-cell,
 td.mat-cell {
   height: 60px;
 }
-
 @media (min-width: 1200px) {
   th.mat-header-cell,
   td.mat-cell {
     height: 120px;
+  }
+}
+@media (max-width: 767px) {
+  th.mat-header-cell,
+  td.mat-cell {
+    height: 20px;
+    font-size: 10px;
   }
 }
 
@@ -40,10 +46,4 @@ td.mat-cell {
   .btn {
     margin-top: 180px;
   }
-
-  th.mat-header-cell,
-  td.mat-cell {
-    height: 20px;
-    font-size: 10px;
-  }
-}
+}/*# sourceMappingURL=category-list.component.css.map */
